@@ -4,8 +4,8 @@
 ![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/dorokhin/service_exporter?color=brightgreen&include_prereleases&label=release&logo=go&logoColor=white&sort=semver)
 # service_exporter
 
-**_`This Prometheus exporter makes it possible to monitor systemd unit (e.g. nginx.service) status: **only running or not**.
-Without unnecessary details, such as memory consumption, processor time, etc.`_**
+This Prometheus exporter makes it possible to monitor systemd unit (e.g. nginx.service) status: **only running or not**.
+Without unnecessary details, such as memory consumption, processor time, etc.
 
 ### Flags:
 <pre>
