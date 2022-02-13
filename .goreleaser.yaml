@@ -1,0 +1,17 @@
+# .goreleaser.yaml
+builds:
+  -
+    goos:
+      - linux
+      - darwin
+    goarch:
+      - amd64
+      - arm64
+
+    ldflags: |
+      -X github.com/prometheus/common/version.Version={{.Version}}
+      -X github.com/prometheus/common/version.BuildUser=goreleaser
+      -X github.com/prometheus/common/version.Revision={{.Commit}}
+      -X github.com/prometheus/common/version.Branch=main
+      -X github.com/prometheus/common/version.BuildDate={{.Date}}
+
