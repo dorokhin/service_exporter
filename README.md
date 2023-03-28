@@ -7,6 +7,9 @@
 This Prometheus exporter makes it possible to monitor systemd unit (e.g. nginx.service) status: **only running or not**.
 Without unnecessary details, such as memory consumption, processor time, etc.
 
+
+If you want some more metrics, you should use the [node_exporter](https://github.com/prometheus/node_exporter) with `systemd collector` enabled.
+
 ### Flags:
 <pre>
   -h, --help                  Show context-sensitive help (also try --help-long and --help-man).
